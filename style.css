@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.fylo{
+    background-color: hsl(217, 28%, 15%);
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
+.fylo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.all-items{
+    display: flex;
+    list-style-type: none;
+}
+li {
+    margin-bottom: 10px;
+}
+.items{
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.items::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+    background: white;
+}
+.items:hover::after{
+    width: 100%;
+}
+.logo{
+    width: 150px;
+}
+
+.main{
+    background-color: hsl(217, 28%, 15%);
+}
+.main-container{
+    text-align: center;
+}
+.foto{
+    width: 550px;
+    margin-bottom: 20px;
+}
+.main-h1{
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: white;
+}
+.para1{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-btn{
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(176, 68%, 64%);
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
+.start{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.main-btn:hover{
+    background-color: lightseagreen;
+    transition: all 0.4s ease-in-out;
+}
+
+.all-icons{
+    background-color: hsl(218, 28%, 13%);    
+}
+.icons-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+}
+.icon-1{
+    margin-top: 70px;
+    width: 50%;
+    margin-right: 70px;
+}
+.icon-2{
+    margin-top: 70px;
+    width: 50%;
+    margin-left: 70px;
+}
+.icon-items{
+    margin-bottom: 70px;
+}
+.icon-items img{
+    margin-bottom: 15px;
+}
+.icon-items h2{
+    color: white;
+    margin-bottom: 15px;
+}
+.icon-items p{
+    color: lightgrey;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.stay{
+  display: flex;
+  align-items: center;
+  background-color: hsl(218, 28%, 13%);
+}
+.img-2{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.yazi{
+    margin-right: 100px;
+}
+.yazi h1{
+    color: white;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.yazi p{
+    color: lightgrey;
+    margin-bottom: 20px;
+}
+.yazi a{
+    color: white;
+}
+.img-stay{
+    width: 550px;
+}
+.icon-color{
+    color: white;
+    margin-left: 5px;
+}
+.icon-fl{
+    display: flex;
+    align-items: center;
+}
+
+.cards{
+    background-color: hsl(218, 28%, 13%);
+    position: relative;
+    
+}
+.all-cards{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    color: lightgrey;
+    font-size: 14px;
+    font-weight: 200;
+    position: relative;
+    z-index: 3;
+}
+
+.card-1{
+    padding: 40px 20px 0px 20px;
+    background-color: hsl(219, 30%, 18%);
+    border-bottom-right-radius: 5px solid black;
+    height: 220px;
+    margin-right: 100px;
+    margin-top: 150px;
+    border-bottom: 10px solid hsl(220, 30%, 21%);
+    border-right: 10px solid hsl(220, 30%, 21%);
+    margin-bottom: 250px;
+}
+.card-1 img{
+    border-radius: 200px;
+    width: 50px;
+    margin-right: 10px;
+}
+.card-alt{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.card-2{
+    padding: 40px 20px 0px 20px;
+    background-color: hsl(219, 30%, 18%);
+    border-bottom-right-radius: 5px solid black;
+    height: 220px;
+    margin-top: 150px;
+    border-bottom: 10px solid hsl(220, 30%, 21%);
+    border-right: 10px solid hsl(220, 30%, 21%);
+    margin-bottom: 250px;
+}
+.card-2 img{
+    border-radius: 200px;
+    width: 50px;
+    margin-right: 10px;
+}
+.card-alt{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.card-3{
+    padding: 40px 20px 0px 20px;
+    background-color: hsl(219, 30%, 18%);
+    border-bottom-right-radius: 5px solid black;
+    height: 220px;
+    margin-left: 100px;
+    margin-top: 150px;
+    border-bottom: 10px solid hsl(220, 30%, 21%);
+    border-right: 10px solid hsl(220, 30%, 21%);
+    margin-bottom: 250px;
+}
+.card-3 img{
+    border-radius: 200px;
+    width: 50px;
+    margin-right: 10px;
+}
+.card-alt{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.virgul{
+    top: 110px;
+    position: absolute;
+    z-index: -1;
+    left: -10px;
+}
+
+.access{
+    background-color: hsl(220, 30%, 21%);
+    width: 750px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 70px;
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    transform: translateX(40%);
+}
+
+.access-h2{
+    margin-bottom: 20px;
+    color: white;
+}
+.access-p{
+    color: lightgrey;
+    margin-bottom: 20px;
+}
+
+.input-ac{
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    height: 35px;
+    margin-right: 20px;
+padding: 10px;
+outline: none;
+}
+
+.btn-ac{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(198, 60%, 50%);
+    cursor: pointer;
+    color: white;
+    outline: none;
+    text-align: center;
+}
+.btn-ac:hover{
+    background-color: lightskyblue;
+    transition: all 0.4s ease-in-out;
+}
+
+.footer{
+    background-color: hsl(216, 53%, 9%);
+    padding: 50px 50px 50px 100px;
+}
+.logo-footer{
+    margin-top: 100px;
+}
+.footer-p{
+    display: flex;
+    margin-top: 20px;
+}
+.location{
+    width: 300px;
+    display: flex;
+}
+.footer-p img{
+    margin-right: 10px;
+}
+.footer-p p{
+    color: lightgrey;
+    font-size: 14px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.phone{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+.mail{
+    display: flex;
+    margin-left: 70px;
+}
+
+.liste-1{
+    list-style-type: none;
+    margin-left: 120px;
+}
+.liste-2{
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.alt-liste a{
+text-decoration: none;
+color: lightgrey;
+font-size: 14px;
+}
+.alt-liste a:hover{
+    color: hsl(176, 68%, 64%);
+    transition: all 0.4s ease-in-out;
+}
+
+.social{
+    display: flex;
+    margin-left: 100px;
+}
+.twitter img, .insta img, .facebook img{
+    width: 28px;
+    height: 28px;
+}
